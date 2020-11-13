@@ -1,0 +1,143 @@
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+header {
+  background-image: url(./img/background.jpg);
+  width:  100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  
+}
+header section {
+  margin-top: 150px;
+}
+section {
+  position: relative;
+  width: 150px;
+  height: 190px;
+  background: #ffffff;
+  padding: 25px 60px;
+}
+ul {
+  padding: 0;
+}
+li {
+  padding: 0;
+  list-style-type: none;
+}
+
+section a img {
+  width: 8px;
+  height: 8px;
+  background: #DEDEDE;
+  border-radius: 50%;
+  
+}
+li:hover {
+  background: #DEDEDE;
+}
+li {
+  position: relative;
+  padding: 7px;
+  border-bottom: 1px solid #DEDEDE;
+}
+.li1::before {
+  content: "";
+  background-image: url('./img/visa.svg');
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 45px;
+  height: 20px;
+  left: -50px;
+  top: 2px;
+}
+.li2::before {
+  content: "";
+  background-image: url('./img/mastercard.svg');
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 45px;
+  height: 25px;
+  left: -50px;
+  top: 2px;
+}
+.li2::after {
+  content: "";
+  background-image: url('./img/check.svg');
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 45px;
+  height: 33px;
+  right: -50px;
+  top: -1px;
+}
+.li3::before {
+  content: "";
+  background-image: url('./img/maestro.svg');
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 45px;
+  height: 25px;
+  left: -50px;
+  top: 2px;
+}
+.a2.a1 {
+  background: #aaaaaa;
+}
+
+
+.a-last {
+  width: 0px;
+  height: 00px;
+  background-color: #4F80D7;
+  padding: 10px 30px;
+}
+
+
+
+
+
+
+/* section::before {
+  content: "";
+  background-image: url(./img/arrow.svg);
+  position: absolute;
+  background-size: contain;
+  background: #DEDEDE;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  top: 5px;
+  right: 75px;
+
+}
+section::after {
+  content: "";
+  background-image: url(./img/check.svg);
+  position: absolute;
+  background-size: contain;
+  background: #ca2121;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  top: 5px;
+  right: 85px;
+
+} */
+

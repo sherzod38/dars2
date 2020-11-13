@@ -20,7 +20,196 @@ header {
   justify-content: center;
   
 }
-header section {
+
+.section1 {
+  margin-top: 110px;
+
+  background: #fff;
+  width: 348px;
+  height: 311px;
+}
+.section2 {
+  position: relative;
+}
+.section2 a:hover {
+  background: #242121;
+}
+
+.section2 a:nth-child(1) {
+  left: 190px;
+  top: 25px;
+  border-radius: 50%;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #dedede;
+}
+
+.section2 a:nth-child(2) {
+  left: 170px;
+  top: 25px;
+  border-radius: 50%;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #dedede;
+}
+.section2 a:nth-child(3) {
+  left: 150px;
+  top: 25px;
+  border-radius: 50%;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #8b8989;
+}
+#a1 {
+  display: none;  
+}
+.as1 {
+  color: #dedede;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  padding: 15px 0;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  position: relative;
+}
+.as1::before {
+  content: "";
+  background-image: url('./img/visa.svg');
+  width: 45px;
+  height: 30px;
+  background-size: contain;
+  position: absolute;
+  left: 25px;
+  top:  9px;
+
+}
+#a2 {
+  display: none;
+}
+.as2 {
+  color: #dedede;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  padding: 15px 0;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  position: relative;
+}
+.as2::before {
+  content: "";
+  background-image: url('./img/mastercard.svg');
+  width: 45px;
+  height: 30px;
+  background-size: contain;
+  position: absolute;
+  left: 25px;
+  top:  9px;
+}
+.as2::after {
+  content: "";
+  background-image: url('./img/check.svg');
+  width: 45px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 25px;
+  top:  9px;
+}
+#a3 {
+  display: none;
+}
+.as3 {
+  color: #dedede;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  padding: 15px 0;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  position: relative;
+}
+.as3::before {
+  content: "";
+  background-image: url('./img/maestro.svg');
+  width: 45px;
+  height: 30px;
+  background-size: contain;
+  position: absolute;
+  left: 25px;
+  top:  9px;
+}
+
+.as1:hover {
+  background: #dedede;
+  color: #080808;
+  font-weight: bold;
+}
+.as2:hover {
+  background: #dedede;
+  color: #080808;
+  font-weight: bold;
+}
+.as3:hover {
+  background: #dedede;
+  color: #080808;
+  font-weight: bold;
+}
+.last:active {
+  border-top: 3px solid #ffffff;
+  /* padding-top: 12px; */
+  /* font-size: 12px; */
+}
+.last:hover {
+  background: #457fdb;
+}
+.last {
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  display: block;
+  padding: 15px 110px;
+  background: #598BDD;
+  position: relative;
+}
+.last:after {
+  content: "";
+  position: absolute;
+  background-image: url('./img/arrow.svg');
+  background-repeat: no-repeat;
+  background-position-x: 15px;
+  background-position-y: -3px;
+  width: 35px;
+  height: 35px;
+}
+
+.section1 h1 {
+  /* position: relative; */
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+
+
+
+
+/* .section1 h1::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  background: rgb(136, 128, 126);
+  top: -15px;
+} */
+
+
+/* header section {
   margin-top: 150px;
 }
 section {
@@ -107,7 +296,7 @@ li {
   height: 00px;
   background-color: #4F80D7;
   padding: 10px 30px;
-}
+} */
 
 
 
